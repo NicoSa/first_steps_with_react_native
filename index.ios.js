@@ -11,7 +11,6 @@ import {
   Text,
   View
 } from 'react-native';
-
 import HelloWorld from './App/components/helloWorld'
 
 export default class AwesomeProject extends Component {

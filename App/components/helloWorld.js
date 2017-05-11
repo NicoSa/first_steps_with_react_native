@@ -8,23 +8,13 @@ import {
 } from 'react-native'
 
 const HelloWorld = (props) => {
-  if (Platform.OS === "ios") {
-    return (
+  return (
     <View style={styles.container}>
       <Text style={styles.welcome}>
-        "Hello iOS World!"
+        "Hello World!"
       </Text>
     </View>
-    )
-  } else if (Platform.OS === "android") {
-    return(
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          "Hello Android World"
-        </Text>
-      </View>
-    )
-  }
+  )
 }
 
 const styles = StyleSheet.create({
@@ -47,3 +37,22 @@ const styles = StyleSheet.create({
 });
 
 export default HelloWorld
+
+
+// if (Platform.OS === "ios") {
+//   return (
+//     <View style={styles.container}>
+//     <Text style={styles.welcome}>
+//     "Hello iOS World!"
+//     </Text>
+//     </View>
+//   )
+// } else if (Platform.OS === "android") {
+//   return(
+//     <View style={styles.container}>
+//     <Text style={styles.welcome}>
+//     "Hello Android World"
+//     </Text>
+//     </View>
+//   )
+// }
